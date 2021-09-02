@@ -1,2 +1,3 @@
 sudo cp .service/nginx.conf /etc/nginx/sites-enabled/javascript
-sudo service nginx restart
+sudo systemctl restart nginx
+sudo nginx -t
